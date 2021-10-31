@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container textarea {
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.inputForm {
+  border: 1px solid black;
+  margin: 0 1rem;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.previewForm {
+  border: 1px solid black;
+  margin: 0 1rem;
+  padding: 1rem;
+  max-width: 500px;
+}
+
+.menuBtn {
+  background: #006400;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.2rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.menuBtn:hover,
+.menuBtn:active {
+  background: #00b600;
+  transform: translateY(10%);
+  box-shadow: 2px 5px 20px 2px #888888;
+}
+
+.previewSection {
+  margin: 1rem 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

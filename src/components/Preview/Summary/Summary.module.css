@@ -1,0 +1,6 @@
+.container {
+    line-height: 1.6;
+    margin: 0.5rem 0;
+    text-align: justify;
+    text-justify: inter-word;
+}

@@ -1,0 +1,13 @@
+.formWrapper{
+    border: 2px solid darkgreen;
+    border-radius: 8px;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-width: 500px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+}
+
+.formWrapper h1 {
+    color: darkgreen;
+    margin: 1rem;
+}

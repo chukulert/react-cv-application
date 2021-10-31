@@ -1,0 +1,11 @@
+.formWrapper{
+    border: 1px solid black;
+    padding: 2rem;
+    width: 210mm;
+    height: 297mm;
+    box-shadow: 5px 0 6px 0 hsl(0deg 0% 0% / 20%);
+}
+
+.container {
+    margin: 1rem;
+}
